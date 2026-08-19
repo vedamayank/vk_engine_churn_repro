@@ -1,0 +1,165 @@
+08-19 11:15:23.339 15133 15133 I ine_churn_repro: Late-enabling -Xcheck:jni
+08-19 11:15:23.410 15133 15133 E ine_churn_repro: Unknown bits set in runtime_flags: 0x40000000
+08-19 11:15:23.411 15133 15133 I ine_churn_repro: Using generational CollectorTypeCMC GC.
+08-19 11:15:23.420 15133 15133 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+08-19 11:15:23.426 15133 15133 D OplusActivityThreadExtImpl: java.lang.NoSuchMethodException: dalvik.system.VMRuntime.SupressionGC [int, int]
+08-19 11:15:23.426 15133 15133 W libc    : Access denied finding property "persist.vendor.sys.activitylog"
+08-19 11:15:23.427 15133 15133 I OneTrace: Mark active for pid=15133? true
+08-19 11:15:23.427 15133 15133 D cutils-dev: otrace_set_tracing_enabled? true tag:0
+08-19 11:15:23.484 15133 15133 D CompactWindowAppManager: initCompactApplicationInfo CompactMode: , NormalMode: 
+08-19 11:15:23.486 15133 15133 V Configuration: Updating configuration, locales updated from [] to [en_GB]
+08-19 11:15:23.487 15133 15133 D OplusScrollToTopManager: setIsInWhiteList false
+08-19 11:15:23.488 15133 15133 D OplusViewDebugManager: OplusViewDebugManager Constructor android.view.debug.OplusViewDebugManager@e12eb84 [mHasViewDebugProperty true] [mHasMsgDebugProperty false] [DEBUG false] [EXTRAINFOENABLE false] [LIGHT_OS false]
+08-19 11:15:23.498 15133 15133 W libc    : Access denied finding property "ro.odm.prev.product.name"
+08-19 11:15:23.500 15133 15133 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+08-19 11:15:23.500 15133 15133 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+08-19 11:15:23.547 15133 15133 D nativeloader: Configuring clns-9 for other apk /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/lib/arm64:/data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/app.vedapath.vk_engine_churn_repro
+08-19 11:15:23.549 15133 15133 I ine_churn_repro: AssetManager2(0xb4000072682a0428) locale list changing from [] to [en-GB]
+08-19 11:15:23.553 15133 15133 V GraphicsEnvironment: Currently set values for:
+08-19 11:15:23.553 15133 15133 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+08-19 11:15:23.553 15133 15133 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+08-19 11:15:23.553 15133 15133 V GraphicsEnvironment: app.vedapath.vk_engine_churn_repro is not listed in per-application setting
+08-19 11:15:23.553 15133 15133 V GraphicsEnvironment: ANGLE allowlist from config: 
+08-19 11:15:23.553 15133 15133 V GraphicsEnvironment: app.vedapath.vk_engine_churn_repro is not listed in ANGLE allowlist or settings, returning default
+08-19 11:15:23.553 15133 15133 V GraphicsEnvironment: App is not on the allowlist for updatable production driver.
+08-19 11:15:23.554 15133 15133 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+08-19 11:15:23.558 15133 15133 D OplusGraphicsEvent: OplusGraphicsEventListener create now!
+08-19 11:15:23.558 15133 15133 D OplusGraphicsEvent: addEventListener success!
+08-19 11:15:23.559 15133 15133 E [UAH_CLIENT]: uahInit enter
+08-19 11:15:23.560 15133 15133 W ine_churn_repro: AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. This might not be intended. AIBinder_DeathRecipient_setOnUnlinked should be called first.
+08-19 11:15:23.560 15133 15133 I [UAH_CLIENT]: UahGetFeatureStatus enter
+08-19 11:15:23.571 15133 15133 I vk-churn: onStartJob cycle=2 (main=true)
+08-19 11:15:23.588 15133 15133 I DisplayManager: Implicitly registering for refresh rate
+08-19 11:15:23.595 15133 15133 E SchedAssist: open sharedFd failed with error=Permission denied
+08-19 11:15:23.596 15133 15133 E SchedAssist: open sharedFd failed with error=Permission denied
+08-19 11:15:23.596 15133 15133 E SchedAssist: open sharedFd failed with error=Permission denied
+08-19 11:15:23.596 15133 15133 E SchedAssist: open sharedFd failed with error=Permission denied
+08-19 11:15:23.600 15133 15133 I DynamicFramerate [FRTCConfigManager]: initFrameRateConfig: 
+08-19 11:15:23.600 15133 15133 I DynamicFramerate [FRTCConfigManager]: 	levelsFor120hz: [120, 60]
+08-19 11:15:23.600 15133 15133 I DynamicFramerate [FRTCConfigManager]: 	thresholdsFor120hz: [200]
+08-19 11:15:23.600 15133 15133 I DynamicFramerate [FRTCConfigManager]: 	levelsFor90hz: [90]
+08-19 11:15:23.600 15133 15133 I DynamicFramerate [FRTCConfigManager]: 	thresholdsFor90hz: []
+08-19 11:15:23.600 15133 15133 I DynamicFramerate [FRTCConfigManager]: FRTCConfigManager: FRTC_CAPABILITY = 120, package name = app.vedapath.vk_engine_churn_repro, WINDOW_ANIMATION_SPEED_RATE = 10, SCROLL_ANIMATION_SPEED_RATE = 20, PACKAGE_ENABLE = false
+08-19 11:15:23.600 15133 15133 I DynamicFramerate [DynamicFrameRateController]: init info: mPackageName = app.vedapath.vk_engine_churn_repro, mIsEnabled = false
+08-19 11:15:23.803 15133 15133 D colorx  : VulkanExtImpl Init
+08-19 11:15:23.805 15133 15133 D vulkan  : searching for layers in '/data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/lib/arm64'
+08-19 11:15:23.806 15133 15133 D vulkan  : searching for layers in '/data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!/lib/arm64-v8a'
+08-19 11:15:23.823 15133 15133 D vulkan  : added global layer 'VK_LAYER_KHRONOS_validation' from library '/data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!/lib/arm64-v8a/libVkLayer_khronos_validation.so'
+08-19 11:15:23.826 15133 15133 D colorx  : I can't find colorx layer , let's enumerate colorx layers first.
+08-19 11:15:23.845 15133 15133 I vulkan  : Loaded layer VK_LAYER_KHRONOS_validation
+08-19 11:15:23.881 15133 15133 I AdrenoVK-0: ===== BEGIN DUMP OF OVERRIDDEN SETTINGS =====
+08-19 11:15:23.882 15133 15133 I AdrenoVK-0: ===== END DUMP OF OVERRIDDEN SETTINGS =====
+08-19 11:15:23.887 15133 15133 I AdrenoVK-0: QUALCOMM build          : b82916be04, I507ba793b7
+08-19 11:15:23.887 15133 15133 I AdrenoVK-0: Build Date              : 08/06/25
+08-19 11:15:23.887 15133 15133 I AdrenoVK-0: Shader Compiler Version : EV031.36.08.34
+08-19 11:15:23.887 15133 15133 I AdrenoVK-0: Local Branch            : 
+08-19 11:15:23.887 15133 15133 I AdrenoVK-0: Remote Branch           : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.1.0.R1.11.00.00.816.269
+08-19 11:15:23.887 15133 15133 I AdrenoVK-0: Remote Branch           : NONE
+08-19 11:15:23.887 15133 15133 I AdrenoVK-0: Reconstruct Branch      : NOTHING
+08-19 11:15:23.888 15133 15133 I AdrenoVK-0: Build Config            : S P 12.1.1 AArch64
+08-19 11:15:23.888 15133 15133 I AdrenoVK-0: Driver Path             : /vendor/lib64/hw/vulkan.adreno.so
+08-19 11:15:23.888 15133 15133 I AdrenoVK-0: Driver Version          : 0615.100
+08-19 11:15:23.888 15133 15133 I AdrenoVK-0: PFP                     : 0x01730181
+08-19 11:15:23.888 15133 15133 I AdrenoVK-0: ME                      : 0x00000000
+08-19 11:15:23.888 15133 15133 I AdrenoVK-0: Application Name    : Impeller
+08-19 11:15:23.888 15133 15133 I AdrenoVK-0: Application Version : 0x00400000
+08-19 11:15:23.888 15133 15133 I AdrenoVK-0: Engine Name         : Impeller
+08-19 11:15:23.888 15133 15133 I AdrenoVK-0: Engine Version      : 0x00800000
+08-19 11:15:23.888 15133 15133 I AdrenoVK-0: Api Version         : 0x00401000
+08-19 11:15:24.246 15133 15133 I flutter : [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(59)] Using the Impeller rendering backend (Vulkan with Validation Layers).
+08-19 11:15:24.379 15133 15168 I flutter : The Dart VM service is listening on http://127.0.0.1:38743/k-WUSQKxsmw=/
+08-19 11:15:25.237 15133 15133 D ExtensionsLoader: createInstance(64bit) : createExtendedFactory
+08-19 11:15:25.238 15133 15133 D ExtensionsLoader: Opened libSchedAssistExtImpl.so
+08-19 11:15:32.776 15133 15133 I flutter : [vk-churn] cycle=2 rendered=12 pngBytes=1711465
+08-19 11:15:32.801 15133 15133 I vk-churn: scheduled cycle=3 (job=191168, delay=20000ms)
+08-19 11:15:32.827 15133 15133 W vk-churn: onStopJob cycle=2: destroying engine MID-TASK (no jobFinished)
+08-19 11:15:32.840 15133 15133 I vk-churn: scheduled cycle=3 (job=191168, delay=20000ms)
+08-19 11:15:32.866 15133 15133 I flutter : [vk-churn] onStopJob notified Dart mid-task (cancel path)
+08-19 11:15:32.879 15133 15133 I vk-churn: destroying engine for cycle=2 (deferred main-looper turn)
+08-19 11:15:32.958 15133 15133 W vk-churn: mid-task destroy executing for cycle=2
+08-19 11:15:48.860 15133 15133 I vk-churn: onStartJob cycle=3 (main=true)
+08-19 11:15:48.876 15133 15133 D colorx  : I can't find colorx layer , let's enumerate colorx layers first.
+08-19 11:15:48.893 15133 15133 I vulkan  : Loaded layer VK_LAYER_KHRONOS_validation
+08-19 11:15:48.916 15133 15133 I AdrenoVK-0: QUALCOMM build          : b82916be04, I507ba793b7
+08-19 11:15:48.916 15133 15133 I AdrenoVK-0: Build Date              : 08/06/25
+08-19 11:15:48.916 15133 15133 I AdrenoVK-0: Shader Compiler Version : EV031.36.08.34
+08-19 11:15:48.916 15133 15133 I AdrenoVK-0: Local Branch            : 
+08-19 11:15:48.916 15133 15133 I AdrenoVK-0: Remote Branch           : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.1.0.R1.11.00.00.816.269
+08-19 11:15:48.916 15133 15133 I AdrenoVK-0: Remote Branch           : NONE
+08-19 11:15:48.916 15133 15133 I AdrenoVK-0: Reconstruct Branch      : NOTHING
+08-19 11:15:48.916 15133 15133 I AdrenoVK-0: Build Config            : S P 12.1.1 AArch64
+08-19 11:15:48.916 15133 15133 I AdrenoVK-0: Driver Path             : /vendor/lib64/hw/vulkan.adreno.so
+08-19 11:15:48.916 15133 15133 I AdrenoVK-0: Driver Version          : 0615.100
+08-19 11:15:48.916 15133 15133 I AdrenoVK-0: PFP                     : 0x01730181
+08-19 11:15:48.916 15133 15133 I AdrenoVK-0: ME                      : 0x00000000
+08-19 11:15:48.916 15133 15133 I AdrenoVK-0: Application Name    : Impeller
+08-19 11:15:48.916 15133 15133 I AdrenoVK-0: Application Version : 0x00400000
+08-19 11:15:48.916 15133 15133 I AdrenoVK-0: Engine Name         : Impeller
+08-19 11:15:48.916 15133 15133 I AdrenoVK-0: Engine Version      : 0x00800000
+08-19 11:15:48.916 15133 15133 I AdrenoVK-0: Api Version         : 0x00401000
+08-19 11:15:49.263 15133 15133 I flutter : [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(59)] Using the Impeller rendering backend (Vulkan with Validation Layers).
+08-19 11:15:52.265 15133 15133 W vk-churn: onStopJob cycle=3: destroying engine MID-TASK (no jobFinished)
+08-19 11:15:52.287 15133 15133 I vk-churn: scheduled cycle=4 (job=191168, delay=20000ms)
+08-19 11:15:52.360 15133 15133 I flutter : [vk-churn] onStopJob notified Dart mid-task (cancel path)
+08-19 11:15:52.381 15133 15133 W vk-churn: mid-task destroy executing for cycle=3
+08-19 11:16:14.293 15133 15133 I vk-churn: onStartJob cycle=4 (main=true)
+08-19 11:16:14.305 15133 15133 D colorx  : I can't find colorx layer , let's enumerate colorx layers first.
+08-19 11:16:14.322 15133 15133 I vulkan  : Loaded layer VK_LAYER_KHRONOS_validation
+08-19 11:16:14.345 15133 15133 I AdrenoVK-0: QUALCOMM build          : b82916be04, I507ba793b7
+08-19 11:16:14.345 15133 15133 I AdrenoVK-0: Build Date              : 08/06/25
+08-19 11:16:14.345 15133 15133 I AdrenoVK-0: Shader Compiler Version : EV031.36.08.34
+08-19 11:16:14.345 15133 15133 I AdrenoVK-0: Local Branch            : 
+08-19 11:16:14.345 15133 15133 I AdrenoVK-0: Remote Branch           : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.1.0.R1.11.00.00.816.269
+08-19 11:16:14.345 15133 15133 I AdrenoVK-0: Remote Branch           : NONE
+08-19 11:16:14.345 15133 15133 I AdrenoVK-0: Reconstruct Branch      : NOTHING
+08-19 11:16:14.345 15133 15133 I AdrenoVK-0: Build Config            : S P 12.1.1 AArch64
+08-19 11:16:14.345 15133 15133 I AdrenoVK-0: Driver Path             : /vendor/lib64/hw/vulkan.adreno.so
+08-19 11:16:14.345 15133 15133 I AdrenoVK-0: Driver Version          : 0615.100
+08-19 11:16:14.345 15133 15133 I AdrenoVK-0: PFP                     : 0x01730181
+08-19 11:16:14.346 15133 15133 I AdrenoVK-0: ME                      : 0x00000000
+08-19 11:16:14.346 15133 15133 I AdrenoVK-0: Application Name    : Impeller
+08-19 11:16:14.346 15133 15133 I AdrenoVK-0: Application Version : 0x00400000
+08-19 11:16:14.346 15133 15133 I AdrenoVK-0: Engine Name         : Impeller
+08-19 11:16:14.346 15133 15133 I AdrenoVK-0: Engine Version      : 0x00800000
+08-19 11:16:14.346 15133 15133 I AdrenoVK-0: Api Version         : 0x00401000
+08-19 11:16:14.683 15133 15133 I flutter : [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(59)] Using the Impeller rendering backend (Vulkan with Validation Layers).
+08-19 11:16:18.349 15133 15133 W vk-churn: onStopJob cycle=4: destroying engine MID-TASK (no jobFinished)
+08-19 11:16:18.355 15133 15133 I vk-churn: scheduled cycle=5 (job=191168, delay=20000ms)
+08-19 11:16:18.400 15133 15133 I flutter : [vk-churn] onStopJob notified Dart mid-task (cancel path)
+08-19 11:16:18.419 15133 15133 W vk-churn: mid-task destroy executing for cycle=4
+08-19 11:16:39.761 15133 15133 I vk-churn: onStartJob cycle=5 (main=true)
+08-19 11:16:39.772 15133 15133 D colorx  : I can't find colorx layer , let's enumerate colorx layers first.
+08-19 11:16:39.789 15133 15133 I vulkan  : Loaded layer VK_LAYER_KHRONOS_validation
+08-19 11:16:39.812 15133 15133 I AdrenoVK-0: QUALCOMM build          : b82916be04, I507ba793b7
+08-19 11:16:39.812 15133 15133 I AdrenoVK-0: Build Date              : 08/06/25
+08-19 11:16:39.812 15133 15133 I AdrenoVK-0: Shader Compiler Version : EV031.36.08.34
+08-19 11:16:39.812 15133 15133 I AdrenoVK-0: Local Branch            : 
+08-19 11:16:39.812 15133 15133 I AdrenoVK-0: Remote Branch           : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.1.0.R1.11.00.00.816.269
+08-19 11:16:39.812 15133 15133 I AdrenoVK-0: Remote Branch           : NONE
+08-19 11:16:39.812 15133 15133 I AdrenoVK-0: Reconstruct Branch      : NOTHING
+08-19 11:16:39.813 15133 15133 I AdrenoVK-0: Build Config            : S P 12.1.1 AArch64
+08-19 11:16:39.813 15133 15133 I AdrenoVK-0: Driver Path             : /vendor/lib64/hw/vulkan.adreno.so
+08-19 11:16:39.813 15133 15133 I AdrenoVK-0: Driver Version          : 0615.100
+08-19 11:16:39.813 15133 15133 I AdrenoVK-0: PFP                     : 0x01730181
+08-19 11:16:39.813 15133 15133 I AdrenoVK-0: ME                      : 0x00000000
+08-19 11:16:39.813 15133 15133 I AdrenoVK-0: Application Name    : Impeller
+08-19 11:16:39.813 15133 15133 I AdrenoVK-0: Application Version : 0x00400000
+08-19 11:16:39.813 15133 15133 I AdrenoVK-0: Engine Name         : Impeller
+08-19 11:16:39.813 15133 15133 I AdrenoVK-0: Engine Version      : 0x00800000
+08-19 11:16:39.813 15133 15133 I AdrenoVK-0: Api Version         : 0x00401000
+08-19 11:16:40.156 15133 15133 I flutter : [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(59)] Using the Impeller rendering backend (Vulkan with Validation Layers).
+08-19 11:16:41.662 15133 15133 W vk-churn: onStopJob cycle=5: destroying engine MID-TASK (no jobFinished)
+08-19 11:16:41.665 15133 15133 I vk-churn: scheduled cycle=6 (job=191168, delay=20000ms)
+08-19 11:16:41.717 15133 15133 I flutter : [vk-churn] onStopJob notified Dart mid-task (cancel path)
+08-19 11:16:42.881 15133 15133 W vk-churn: mid-task destroy executing for cycle=5
+08-19 11:16:43.108 15133 15133 I VALIDATION: Validation Error: [ VUID-vkDestroyDevice-device-05137 ] | MessageID = 0x4872eaa0
+08-19 11:16:43.108 15133 15133 I VALIDATION: vkDestroyDevice(): Object Tracking - For VkDevice 0xb4000071c636fce0[ImpellerDevice], VkRenderPass 0xaa00000000aa[LinearGradient] has not been destroyed.
+08-19 11:16:43.108 15133 15133 I VALIDATION: The Vulkan spec states: All child objects created on device that can be destroyed or freed must have been destroyed or freed prior to destroying device (https://docs.vulkan.org/spec/latest/chapters/devsandqueues.html#VUID-vkDestroyDevice-device-05137)
+08-19 11:16:43.108 15133 15133 I VALIDATION: Objects: 1
+08-19 11:16:43.108 15133 15133 I VALIDATION:     [0] VkRenderPass 0xaa00000000aa[LinearGradient]
+08-19 11:16:43.109 15133 15133 I VALIDATION: Validation Error: [ VUID-vkDestroyDevice-device-05137 ] | MessageID = 0x4872eaa0
+08-19 11:16:43.109 15133 15133 I VALIDATION: vkDestroyDevice(): Object Tracking - For VkDevice 0xb4000071c636fce0[ImpellerDevice], VkFramebuffer 0xab00000000ab has not been destroyed.
+08-19 11:16:43.109 15133 15133 I VALIDATION: The Vulkan spec states: All child objects created on device that can be destroyed or freed must have been destroyed or freed prior to destroying device (https://docs.vulkan.org/spec/latest/chapters/devsandqueues.html#VUID-vkDestroyDevice-device-05137)
+08-19 11:16:43.109 15133 15133 I VALIDATION: Objects: 1
+08-19 11:16:43.109 15133 15133 I VALIDATION:     [0] VkFramebuffer 0xab00000000ab
+08-19 11:16:43.138 15133 15133 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x72514196f8 in tid 15133 (ine_churn_repro), pid 15133 (ine_churn_repro)

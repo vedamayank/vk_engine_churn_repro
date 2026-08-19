@@ -70,7 +70,7 @@ __release_shared -> SharedHandleVK deleter -> vkDestroyFramebuffer/RenderPass on
 
 This is frame-for-frame the stack of the fully-symbolicated production occurrence on Flutter 3.44.8 (`picture.cc:244` there; `frame_data_` is `std::array<FramebufferAndRenderPass, 2>` at that revision, `std::vector<CachedFrameDataEntry>` on current engines). Same member, same lambda, same destruction order, two Flutter versions.
 
-Evidence files: `evidence/dropbox_native_crashes.txt` (both tombstones), `evidence/l2_crash_buffer.log`, `evidence/l2_harness_log.log` (harness-process log incl. full validation output), `evidence/l2_stack_symbolized.txt`. Logs are filtered to the harness process.
+Evidence files: `evidence/dropbox_native_crashes.txt` (both tombstones), `evidence/l2_crash_buffer.txt`, `evidence/l2_harness_log.txt` (harness-process log incl. full validation output), `evidence/l2_stack_symbolized.txt`. Logs are filtered to the harness process.
 
 ## L3 timeout-cancel race: subsumed by L2
 
