@@ -1,5 +1,5 @@
 name: vk_engine_churn_repro
-description: "MRE harness for flutter/flutter#191168: Impeller Vulkan vkDestroyFramebuffer crash under background FlutterEngine churn."
+description: "MRE harness for flutter/flutter#191168: Impeller Vulkan vkDestroyFramebuffer crash under background FlutterEngine churn. Zero third-party dependencies: plain Android JobScheduler plus the Flutter embedding API."
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -9,11 +9,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  # Same plugin and major version the production app uses to run periodic
-  # background work. Each Android task execution spawns a fresh background
-  # FlutterEngine (with its own Impeller Vulkan context) and destroys it
-  # when the task completes.
-  workmanager: ^0.10.7
 
 dev_dependencies:
   flutter_test:

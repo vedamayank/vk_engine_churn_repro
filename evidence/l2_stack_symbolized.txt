@@ -1,0 +1,38 @@
+std::__fl::__shared_count::__release_shared[abi:nn210000]()
+out/ci/android_debug_arm64/../../../flutter/third_party/libcxx/include/__memory/shared_count.h:92
+std::__fl::__shared_weak_count::__release_shared[abi:nn210000]()
+out/ci/android_debug_arm64/../../../flutter/third_party/libcxx/include/__memory/shared_count.h:121
+flutter::gpu::CommandBuffer::Encodable::~Encodable()
+out/ci/android_debug_arm64/../../../flutter/impeller/core/formats.h:908
+impeller::TextureSourceVK::CachedFrameDataEntry::~CachedFrameDataEntry()
+out/ci/android_debug_arm64/../../../flutter/impeller/renderer/backend/vulkan/texture_source_vk.h:169
+void std::__fl::__destroy_at[abi:nn210000]<impeller::TextureSourceVK::CachedFrameDataEntry, 0>(impeller::TextureSourceVK::CachedFrameDataEntry*)
+out/ci/android_debug_arm64/../../../flutter/third_party/libcxx/include/__memory/construct_at.h:63
+void std::__fl::allocator_traits<std::__fl::allocator<impeller::TextureSourceVK::CachedFrameDataEntry>>::destroy[abi:nn210000]<impeller::TextureSourceVK::CachedFrameDataEntry, void, 0>(std::__fl::allocator<impeller::TextureSourceVK::CachedFrameDataEntry>&, impeller::TextureSourceVK::CachedFrameDataEntry*)
+out/ci/android_debug_arm64/../../../flutter/third_party/libcxx/include/__memory/allocator_traits.h:329
+std::__fl::vector<impeller::TextureSourceVK::CachedFrameDataEntry, std::__fl::allocator<impeller::TextureSourceVK::CachedFrameDataEntry>>::__base_destruct_at_end[abi:nn210000](impeller::TextureSourceVK::CachedFrameDataEntry*)
+out/ci/android_debug_arm64/../../../flutter/third_party/libcxx/include/__vector/vector.h:771
+std::__fl::vector<impeller::TextureSourceVK::CachedFrameDataEntry, std::__fl::allocator<impeller::TextureSourceVK::CachedFrameDataEntry>>::__destroy_vector::operator()[abi:nn210000]()
+out/ci/android_debug_arm64/../../../flutter/third_party/libcxx/include/__vector/vector.h:246
+std::__fl::vector<impeller::TextureSourceVK::CachedFrameDataEntry, std::__fl::allocator<impeller::TextureSourceVK::CachedFrameDataEntry>>::~vector[abi:nn210000]()
+out/ci/android_debug_arm64/../../../flutter/third_party/libcxx/include/__vector/vector.h:257
+impeller::TextureVK::~TextureVK()
+out/ci/android_debug_arm64/../../../flutter/impeller/renderer/backend/vulkan/texture_vk.cc:25
+flutter::Picture::DoRasterizeToImage(sk_sp<flutter::DisplayList> const&, std::__fl::unique_ptr<flutter::LayerTree, std::__fl::default_delete<flutter::LayerTree>>, unsigned int, unsigned int, _Dart_Handle*)::$_1::operator()()::'lambda'(std::__fl::shared_ptr<impeller::Texture> const&)::operator()(std::__fl::shared_ptr<impeller::Texture> const&) const::'lambda'()::~()
+out/ci/android_debug_arm64/../../../flutter/lib/ui/painting/picture.cc:266
+std::__fl::__function::__alloc_func<flutter::Picture::DoRasterizeToImage(sk_sp<flutter::DisplayList> const&, std::__fl::unique_ptr<flutter::LayerTree, std::__fl::default_delete<flutter::LayerTree>>, unsigned int, unsigned int, _Dart_Handle*)::$_1::operator()()::'lambda'(std::__fl::shared_ptr<impeller::Texture> const&)::operator()(std::__fl::shared_ptr<impeller::Texture> const&) const::'lambda'(), std::__fl::allocator<flutter::Picture::DoRasterizeToImage(sk_sp<flutter::DisplayList> const&, std::__fl::unique_ptr<flutter::LayerTree, std::__fl::default_delete<flutter::LayerTree>>, unsigned int, unsigned int, _Dart_Handle*)::$_1::operator()()::'lambda'(std::__fl::shared_ptr<impeller::Texture> const&)::operator()(std::__fl::shared_ptr<impeller::Texture> const&) const::'lambda'()>, void ()>::destroy[abi:nn210000]()
+out/ci/android_debug_arm64/../../../flutter/third_party/libcxx/include/__functional/function.h:181
+std::__fl::__function::__func<flutter::Picture::DoRasterizeToImage(sk_sp<flutter::DisplayList> const&, std::__fl::unique_ptr<flutter::LayerTree, std::__fl::default_delete<flutter::LayerTree>>, unsigned int, unsigned int, _Dart_Handle*)::$_1::operator()()::'lambda'(std::__fl::shared_ptr<impeller::Texture> const&)::operator()(std::__fl::shared_ptr<impeller::Texture> const&) const::'lambda'(), std::__fl::allocator<flutter::Picture::DoRasterizeToImage(sk_sp<flutter::DisplayList> const&, std::__fl::unique_ptr<flutter::LayerTree, std::__fl::default_delete<flutter::LayerTree>>, unsigned int, unsigned int, _Dart_Handle*)::$_1::operator()()::'lambda'(std::__fl::shared_ptr<impeller::Texture> const&)::operator()(std::__fl::shared_ptr<impeller::Texture> const&) const::'lambda'()>, void ()>::destroy_deallocate()
+out/ci/android_debug_arm64/../../../flutter/third_party/libcxx/include/__functional/function.h:313
+std::__fl::__function::__value_func<void (bool)>::operator=[abi:nn210000](std::nullptr_t)
+out/ci/android_debug_arm64/../../../flutter/third_party/libcxx/include/__functional/function.h:0
+std::__fl::__function::__value_func<void (bool)>::operator=[abi:nn210000](std::__fl::__function::__value_func<void (bool)>&&)
+out/ci/android_debug_arm64/../../../flutter/third_party/libcxx/include/__functional/function.h:410
+std::__fl::function<void ()>::operator=(std::__fl::function<void ()>&&)
+out/ci/android_debug_arm64/../../../flutter/third_party/libcxx/include/__functional/function.h:968
+fml::MessageLoopImpl::FlushTasks(fml::FlushType)
+out/ci/android_debug_arm64/../../../flutter/fml/message_loop_impl.cc:122
+fml::MessageLoopAndroid::MessageLoopAndroid()::$_0::operator()(int, int, void*) const
+out/ci/android_debug_arm64/../../../flutter/fml/platform/android/message_loop_android.cc:41
+fml::MessageLoopAndroid::MessageLoopAndroid()::$_0::__invoke(int, int, void*)
+out/ci/android_debug_arm64/../../../flutter/fml/platform/android/message_loop_android.cc:39

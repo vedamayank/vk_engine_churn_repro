@@ -1,0 +1,198 @@
+Drop box contents: 8 entries
+Max entries: 1000
+Low priority rate limit period: 2000 ms
+Low priority tags: {data_app_wtf, keymaster, system_server_wtf, system_app_strictmode, system_app_wtf, system_server_strictmode, data_app_strictmode, netstats}
+Searching for: data_app_native_crash
+
+========================================
+2026-08-19 11:15:14 data_app_native_crash (text, 12314 bytes)
+SystemUptimeMs: 15643827
+Process: app.vedapath.vk_engine_churn_repro
+PID: 13887
+UID: 10120
+Frozen: false
+Flags: 0x2088be46
+Package: app.vedapath.vk_engine_churn_repro v1 (1.0.0)
+PID: 13887
+Foreground: No
+Process-Runtime: 149560
+Build: OnePlus/NE2211/OP516FL1:16/BP2A.250605.015/S.3c11fd8-181a3a9-17c6449:user/release-keys
+Loading-Progress: 1.0
+Dropped-Count: 0
+
+Process name is app.vedapath.vk_engine_churn_repro, uid is 10120, not key_process
+keyProcess: 0
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Build fingerprint: 'OnePlus/NE2211/OP516FL1:16/BP2A.250605.015/S.3c11fd8-181a3a9-17c6449:user/release-keys'
+Revision: '0'
+ABI: 'arm64'
+Timestamp: 2026-08-19 11:15:12.612981915+0530
+Process uptime: 149s
+Cmdline: app.vedapath.vk_engine_churn_repro
+pid: 13887, tid: 13887, name: ine_churn_repro  >>> app.vedapath.vk_engine_churn_repro <<<
+uid: 10120
+tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)
+signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+    x0  0000000000000000  x1  000000000000363f  x2  0000000000000006  x3  0000007fdd695630
+    x4  62687564436a551f  x5  62687564436a551f  x6  62687564436a551f  x7  7f7f7f7f7f7f7f7f
+    x8  00000000000000f0  x9  91a406351fd1ca30  x10 000000ff00000020  x11 000000000000000f
+    x12 0000000000000020  x13 0400000000000000  x14 0000000000000004  x15 0000000000ffffeb
+    x16 00000072f4d20818  x17 00000072f4d07f40  x18 0000007313874000  x19 000000000000363f
+    x20 000000000000363f  x21 00000000ffffffff  x22 b40000711f614a20  x23 00000073133ad800
+    x24 b40000711f614a20  x25 0000007fdd695a50  x26 b4000072683376d8  x27 b4000072683376b8
+    x28 7fffffffffffffff  x29 0000007fdd6956b0
+    lr  00000072f4ca28a8  sp  0000007fdd695630  pc  00000072f4ca28cc  pst 0000000000001000
+55 total frames
+backtrace:
+      #00 pc 00000000000898cc  /apex/com.android.runtime/lib64/bionic/libc.so (abort+160) (BuildId: f0468d2d3a31c553a7103b6114f35dc6)
+      #01 pc 00000000008809b8  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libVkLayer_khronos_validation.so (offset 0x2b4000) (BuildId: 03eeab8e1148ffdccb650351ab9ef9045e0d4e08)
+      #02 pc 0000000000b1b710  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libVkLayer_khronos_validation.so (offset 0x2b4000) (BuildId: 03eeab8e1148ffdccb650351ab9ef9045e0d4e08)
+      #03 pc 0000000001b59f8c  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #04 pc 0000000001ee6668  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #05 pc 00000000020168b0  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #06 pc 0000000002016864  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #07 pc 0000000002016568  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #08 pc 0000000001b59f8c  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #09 pc 0000000002016c3c  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #10 pc 0000000001b59f8c  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #11 pc 00000000020623d4  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #12 pc 000000000206246c  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #13 pc 0000000001b8f578  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #14 pc 0000000001b8f4f8  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #15 pc 0000000001b8f450  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #16 pc 0000000001b955f0  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #17 pc 0000000000014df8  /system/lib64/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+1200) (BuildId: cd6fe1a2f106f83ac0868f825dfc8390)
+      #18 pc 00000000001e9300  /system/lib64/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long, int)+48) (BuildId: 5b765021e224b6d19ceb258d4d63bc6e)
+      #19 pc 000000000225bf6c  /memfd:jit-cache (deleted) (offset 0x2000000) (art_jni_trampoline+140)
+      #20 pc 000000000206654c  /memfd:jit-cache (deleted) (offset 0x2000000) (android.os.MessageQueue.nextLegacy+316)
+      #21 pc 00000000020662bc  /memfd:jit-cache (deleted) (offset 0x2000000) (android.os.MessageQueue.next+124)
+      #22 pc 000000000206543c  /memfd:jit-cache (deleted) (offset 0x2000000) (android.os.Looper.loopOnce+172)
+      #23 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #24 pc 000000000087a970  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, bool, art::JValue*)+1884) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #25 pc 00000000006fce54  /apex/com.android.art/lib64/libart.so (void art::interpreter::ExecuteSwitchImplCpp<false>(art::interpreter::SwitchImplContext*)+284) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #26 pc 00000000002fde48  /apex/com.android.art/lib64/libart.so (ExecuteSwitchImplAsm+8) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #27 pc 000000000039f854  /system/framework/framework.jar (offset 0x11c6000) (android.os.Looper.loop+0)
+      #28 pc 000000000087ab14  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, bool, art::JValue*)+2304) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #29 pc 00000000006fce54  /apex/com.android.art/lib64/libart.so (void art::interpreter::ExecuteSwitchImplCpp<false>(art::interpreter::SwitchImplContext*)+284) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #30 pc 00000000002fde48  /apex/com.android.art/lib64/libart.so (ExecuteSwitchImplAsm+8) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #31 pc 00000000001df224  /system/framework/framework.jar (offset 0x7000) (android.app.ActivityThread.main+0)
+      #32 pc 00000000002fda80  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.__uniq.112435418011751916792819755956732575238.llvm.8613519112829971472)+360) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #33 pc 00000000002fd404  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+916) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #34 pc 00000000002c24d8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #35 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #36 pc 000000000029c070  /apex/com.android.art/lib64/libart.so (_jobject* art::InvokeMethod<(art::PointerSize)8>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jobject*, _jobject*, unsigned long)+552) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #37 pc 0000000000635ed4  /apex/com.android.art/lib64/libart.so (art::Method_invoke(_JNIEnv*, _jobject*, _jobject*, _jobjectArray*) (.__uniq.165753521025965369065708152063621506277)+36) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #38 pc 00000000002c23a0  /apex/com.android.art/lib64/libart.so (art_quick_generic_jni_trampoline+144) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #39 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #40 pc 000000000087a868  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, bool, art::JValue*)+1620) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #41 pc 00000000006fcf7c  /apex/com.android.art/lib64/libart.so (void art::interpreter::ExecuteSwitchImplCpp<false>(art::interpreter::SwitchImplContext*)+580) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #42 pc 00000000002fde48  /apex/com.android.art/lib64/libart.so (ExecuteSwitchImplAsm+8) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #43 pc 00000000003bcc90  /system/framework/framework.jar (offset 0x238e000) (com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run+0)
+      #44 pc 00000000002fda80  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.__uniq.112435418011751916792819755956732575238.llvm.8613519112829971472)+360) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #45 pc 00000000002fd404  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+916) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #46 pc 00000000002c24d8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #47 pc 0000000000f33524  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteInit.main+5732)
+      #48 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #49 pc 00000000002a8b8c  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+760) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #50 pc 00000000006a44b4  /apex/com.android.art/lib64/libart.so (art::JNI<true>::CallStaticVoidMethodV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+164) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #51 pc 000000000010d7ec  /system/lib64/libandroid_runtime.so (_JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)+108) (BuildId: 5b765021e224b6d19ceb258d4d63bc6e)
+      #52 pc 0000000000139290  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8> const&, bool)+1020) (BuildId: 5b765021e224b6d19ceb258d4d63bc6e)
+      #53 pc 0000000000002718  /system/bin/app_process64 (main+1624) (BuildId: 9d1c8ac843cff429ce808524242c9a73)
+      #54 pc 0000000000082d60  /apex/com.android.runtime/lib64/bionic/libc.so (__libc_init+124) (BuildId: f0468d2d3a31c553a7103b6114f35dc6)
+
+========================================
+2026-08-19 11:16:44 data_app_native_crash (text, 11752 bytes)
+SystemUptimeMs: 15734121
+Process: app.vedapath.vk_engine_churn_repro
+PID: 15133
+UID: 10120
+Frozen: false
+Flags: 0x2088be46
+Package: app.vedapath.vk_engine_churn_repro v1 (1.0.0)
+PID: 15133
+Foreground: No
+Process-Runtime: 81312
+Build: OnePlus/NE2211/OP516FL1:16/BP2A.250605.015/S.3c11fd8-181a3a9-17c6449:user/release-keys
+Loading-Progress: 1.0
+Dropped-Count: 0
+
+Process name is app.vedapath.vk_engine_churn_repro, uid is 10120, not key_process
+keyProcess: 0
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Build fingerprint: 'OnePlus/NE2211/OP516FL1:16/BP2A.250605.015/S.3c11fd8-181a3a9-17c6449:user/release-keys'
+Revision: '0'
+ABI: 'arm64'
+Timestamp: 2026-08-19 11:16:43.375780943+0530
+Process uptime: 81s
+Cmdline: app.vedapath.vk_engine_churn_repro
+pid: 15133, tid: 15133, name: ine_churn_repro  >>> app.vedapath.vk_engine_churn_repro <<<
+uid: 10120
+tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)
+signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x00000072514196f8
+    x0  b4000071c636fce0  x1  0000aa00000000aa  x2  0000000000000000  x3  00000073106a3f44
+    x4  0000000000000063  x5  0000007313510510  x6  0000000001414d4c  x7  0000007310e00004
+    x8  b4000072252b6000  x9  074e55d199d5bf3f  x10 0000000000000200  x11 00000000000000b4
+    x12 00392255c286d814  x13 000000000000031c  x14 0000007312ce6260  x15 00000000000001c7
+    x16 00000072514196f8  x17 00000072f4cb43ac  x18 0000007313874000  x19 b400007229e94280
+    x20 b40000712628bd00  x21 b40000712628bd30  x22 0000000000000000  x23 00000073133ad800
+    x24 0000000000000000  x25 0000007fdd695a50  x26 b4000072683376d8  x27 b4000072683376b8
+    x28 7fffffffffffffff  x29 0000007fdd695b70
+    lr  000000713c95cf90  sp  0000007fdd695850  pc  00000072514196f8  pst 0000000020001400
+53 total frames
+backtrace:
+      #00 pc 00000072514196f8  <unknown>
+      #01 pc 0000000001b59f8c  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #02 pc 0000000001ee6668  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #03 pc 00000000020168b0  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #04 pc 0000000002016864  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #05 pc 0000000002016568  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #06 pc 0000000001b59f8c  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #07 pc 0000000002016c3c  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #08 pc 0000000001b59f8c  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #09 pc 00000000020623d4  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #10 pc 000000000206246c  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #11 pc 0000000001b8f578  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #12 pc 0000000001b8f4f8  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #13 pc 0000000001b8f450  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #14 pc 0000000001b955f0  /data/app/~~7rtvmsgZTVQcNz4KOieZAg==/app.vedapath.vk_engine_churn_repro-V7KRtWC-GpbKshBWv0kzUQ==/base.apk!libflutter.so (offset 0x1140000) (BuildId: 1c5fc93e80023564cffa6a75977aefac85c8195d)
+      #15 pc 0000000000014df8  /system/lib64/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+1200) (BuildId: cd6fe1a2f106f83ac0868f825dfc8390)
+      #16 pc 00000000001e9300  /system/lib64/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long, int)+48) (BuildId: 5b765021e224b6d19ceb258d4d63bc6e)
+      #17 pc 0000000002265eac  /memfd:jit-cache (deleted) (offset 0x2000000) (art_jni_trampoline+140)
+      #18 pc 00000000020748ac  /memfd:jit-cache (deleted) (offset 0x2000000) (android.os.MessageQueue.nextLegacy+316)
+      #19 pc 000000000207461c  /memfd:jit-cache (deleted) (offset 0x2000000) (android.os.MessageQueue.next+124)
+      #20 pc 000000000207379c  /memfd:jit-cache (deleted) (offset 0x2000000) (android.os.Looper.loopOnce+172)
+      #21 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #22 pc 000000000087a970  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, bool, art::JValue*)+1884) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #23 pc 00000000006fce54  /apex/com.android.art/lib64/libart.so (void art::interpreter::ExecuteSwitchImplCpp<false>(art::interpreter::SwitchImplContext*)+284) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #24 pc 00000000002fde48  /apex/com.android.art/lib64/libart.so (ExecuteSwitchImplAsm+8) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #25 pc 000000000039f854  /system/framework/framework.jar (offset 0x11c6000) (android.os.Looper.loop+0)
+      #26 pc 000000000087ab14  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, bool, art::JValue*)+2304) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #27 pc 00000000006fce54  /apex/com.android.art/lib64/libart.so (void art::interpreter::ExecuteSwitchImplCpp<false>(art::interpreter::SwitchImplContext*)+284) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #28 pc 00000000002fde48  /apex/com.android.art/lib64/libart.so (ExecuteSwitchImplAsm+8) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #29 pc 00000000001df224  /system/framework/framework.jar (offset 0x7000) (android.app.ActivityThread.main+0)
+      #30 pc 00000000002fda80  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.__uniq.112435418011751916792819755956732575238.llvm.8613519112829971472)+360) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #31 pc 00000000002fd404  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+916) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #32 pc 00000000002c24d8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #33 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #34 pc 000000000029c070  /apex/com.android.art/lib64/libart.so (_jobject* art::InvokeMethod<(art::PointerSize)8>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jobject*, _jobject*, unsigned long)+552) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #35 pc 0000000000635ed4  /apex/com.android.art/lib64/libart.so (art::Method_invoke(_JNIEnv*, _jobject*, _jobject*, _jobjectArray*) (.__uniq.165753521025965369065708152063621506277)+36) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #36 pc 00000000002c23a0  /apex/com.android.art/lib64/libart.so (art_quick_generic_jni_trampoline+144) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #37 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #38 pc 000000000087a868  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, bool, art::JValue*)+1620) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #39 pc 00000000006fcf7c  /apex/com.android.art/lib64/libart.so (void art::interpreter::ExecuteSwitchImplCpp<false>(art::interpreter::SwitchImplContext*)+580) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #40 pc 00000000002fde48  /apex/com.android.art/lib64/libart.so (ExecuteSwitchImplAsm+8) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #41 pc 00000000003bcc90  /system/framework/framework.jar (offset 0x238e000) (com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run+0)
+      #42 pc 00000000002fda80  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.__uniq.112435418011751916792819755956732575238.llvm.8613519112829971472)+360) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #43 pc 00000000002fd404  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+916) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #44 pc 00000000002c24d8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #45 pc 0000000000f33524  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteInit.main+5732)
+      #46 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #47 pc 00000000002a8b8c  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+760) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #48 pc 00000000006a44b4  /apex/com.android.art/lib64/libart.so (art::JNI<true>::CallStaticVoidMethodV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+164) (BuildId: cecb684d19b4f44ee3cbd66142c315f4)
+      #49 pc 000000000010d7ec  /system/lib64/libandroid_runtime.so (_JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)+108) (BuildId: 5b765021e224b6d19ceb258d4d63bc6e)
+      #50 pc 0000000000139290  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8> const&, bool)+1020) (BuildId: 5b765021e224b6d19ceb258d4d63bc6e)
+      #51 pc 0000000000002718  /system/bin/app_process64 (main+1624) (BuildId: 9d1c8ac843cff429ce808524242c9a73)
+      #52 pc 0000000000082d60  /apex/com.android.runtime/lib64/bionic/libc.so (__libc_init+124) (BuildId: f0468d2d3a31c553a7103b6114f35dc6)
+

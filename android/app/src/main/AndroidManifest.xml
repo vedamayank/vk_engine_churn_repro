@@ -30,6 +30,18 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+        <!-- Force Impeller's Vulkan backend for EVERY engine in the process
+             (FlutterEngineFlags maps this to the impeller-backend engine switch).
+             The crash under investigation lives in Impeller's Vulkan teardown. -->
+        <meta-data
+            android:name="io.flutter.embedding.android.ImpellerBackend"
+            android:value="vulkan" />
+        <!-- Framework JobScheduler service replicating workmanager's per-task
+             background FlutterEngine lifecycle. -->
+        <service
+            android:name=".ChurnJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false" />
     </application>
     <!-- Required to query activities that can process text, see:
          https://developer.android.com/training/package-visibility and

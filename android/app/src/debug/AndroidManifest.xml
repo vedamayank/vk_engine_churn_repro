@@ -4,4 +4,15 @@
          to allow setting breakpoints, to provide hot reload, etc.
     -->
     <uses-permission android:name="android.permission.INTERNET"/>
+    <application>
+        <!-- Debug-only: enables the Vulkan validation layer. The debug
+             android-arm64 flutter.jar bundles
+             lib/arm64-v8a/libVkLayer_khronos_validation.so, so the layer
+             ships in debug APKs automatically; invalid destroys are then
+             REPORTED deterministically instead of relying on the driver
+             to crash. -->
+        <meta-data
+            android:name="io.flutter.embedding.android.EnableVulkanValidation"
+            android:value="true" />
+    </application>
 </manifest>
